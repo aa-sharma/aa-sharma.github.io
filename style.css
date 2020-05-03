@@ -1,0 +1,95 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.navbar{
+  background-color: transparent;
+  padding: 0.25% 0;
+  font-size: 1em;
+}
+
+.navbar-brand{
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: 	#FFFAFA;
+}
+
+.navbar-default .navbar-nav li a: hover, .navbar-default .navbar-nav li a:.active{
+  color: 	#FFF;
+}
+
+#home {
+  background: url(img/nepal2.png) no-repeat center center fixed;
+  display: table;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.landing-text{
+  color: #FFF;
+  font-family: 'Avantgarde', sans-serif;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.landing-text h1{
+  font-size: 500%;
+  font-weight: 700;
+}
+
+.padding{
+  padding: 90px 0;
+
+}
+
+#fixed {
+  background: url(img/clouds3.jpeg) no-repeat center center fixed;
+  display: table;
+  height: 70%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+footer {
+  width: 100%;
+  background-color: #00304B;
+  padding: 5% 5% 10% 5%;
+  color: #FFF;
+}
+
+.fa{
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.fa:hover {
+  color: #00304B;
+  text-decoration: none;
+}
+
+.icon{
+  max-width: 150px;
+}
+
+@media (max-width: 768px) {
+  .landing-text h1 {
+    font-size: 300%;
+  }
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon {
+    padding-top: 5%;
+    max-width: 100px;
+  }
+}
