@@ -35,7 +35,7 @@ html, body{
 }
 
 #destinations {
-  background: url(img/taj.jpeg) no-repeat center center fixed;
+  background: url(./img/taj.jpeg) no-repeat center center fixed;
   display: table;
   height: 100vh;
   position: relative;
