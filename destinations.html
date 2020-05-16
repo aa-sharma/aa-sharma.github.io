@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type ="text/JavaScript" src="app.js"></script>
   <link href="style.css" rel="stylesheet" />
 </head>
 
@@ -50,7 +51,14 @@
       </div>
 
     <div class ="padding">
+
     <div class="container">
+
+      <form class="example" action="action_page.php" method="post">
+        <input type="text" placeholder="Search" id="search"  autocomplete="on" maxlength="25" >
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+
 
       <div class="row">
 
@@ -113,7 +121,7 @@
           <img src="img/ant.jpeg" class="image-responsive" alt="" style="width:500px; height:750px;">
 
           <h2>Antarctica</h2>
-          <p class="lead">Penguins and polar bears. Oops, just penguins!</p>
+          <p class="lead">Penguins and polar bears.</p>
           <br>
           <a href="antarctica.html" class="btn btn-default btn-sm"> Explore  </a>
         </div>
@@ -161,4 +169,3 @@
 
 </body>
 </html>
-

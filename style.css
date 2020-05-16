@@ -12,16 +12,113 @@ html, body{
 }
 
 .navbar-brand{
-  min-height: 55px;
+  min-height: 50px;
   padding: 0 15px 5px;
+  z-index: 2;
+
 }
 
 .navbar-default .navbar-nav li a {
   color: 	#FFFAFA;
+  z-index: 2;
+
 }
 
 .navbar-default .navbar-nav li a: hover, .navbar-default .navbar-nav li a:.active{
   color: 	#FFF;
+  z-index: 2;
+
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 1px solid #000		;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #000;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 20px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+{
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1.5px solid #e2e6e9;
+  float: left;
+  width: 35%;
+  background: #fff;
+}
+
+form.example2 input[type=text] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1.5px solid #e2e6e9;
+  float: right;
+  width: 40%;
+  background: #fff;
+}
+
+form.example2 button {
+  float: right;
+  height: 44px;
+  width: 10%;
+  padding: 0px;
+  background: #000;
+  color: white;
+  font-size: 15px;
+  border: 0px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button {
+  float: left;
+  height: 44px;
+  width: 15%;
+  padding: 0px;
+  background: #e2e6e9;
+  color: white;
+  font-size: 15px;
+  border: 0px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #2c343a;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 #home {
@@ -35,7 +132,18 @@ html, body{
 }
 
 #destinations {
-  background: url(./img/taj.jpeg) no-repeat center center fixed;
+
+  background: url(img/taj.jpeg) no-repeat center center fixed;
+  display: table;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+
+#destinations {
+  background: url(img/taj.jpeg) no-repeat center center fixed;
   display: table;
   height: 100vh;
   position: relative;
@@ -53,7 +161,7 @@ html, body{
 }
 
 #europe {
-  background: url(./img/eur.jpg) no-repeat center center fixed;
+  background: url(img/eur.jpg) no-repeat center center fixed;
   display: table;
   height: 100vh;
   position: relative;
@@ -94,6 +202,7 @@ html, body{
   position: relative;
   width: 100%;
   background-size: cover;
+  z-index: 0;
 }
 
 #antarctica {
@@ -106,13 +215,6 @@ html, body{
 }
 
 
-.overlay{
-  width: 100%;
-  height: 100%;
-  background: #000;
-  opacity: 0.1;
-  z-index: 1;
-}
 
 .landing-text{
   color: #FFF;
@@ -139,35 +241,16 @@ html, body{
     box-shadow: none;
 }
 
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: rgba(0,0,0,0.5) !important;
+    border: #000 !important;
+}
 
 .padding{
   padding: 90px 0;
 }
 
-.icon-image {
-  position: relative;
-  width: 500px;
-  height: 750px;
-}
 
-.icon-overlay{
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: rgba(0,0,0,0.7);
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: 0.7s ease;
-}
-
-
-
-.container:hover .icon-overlay {
-  bottom: 0;
-  height: 100%;
-}
 
 .text {
   color: white;
@@ -189,6 +272,7 @@ html, body{
   width: 100%;
   background-size: cover;
 }
+
 
 footer {
   width: 100%;
@@ -236,4 +320,382 @@ footer2 {
     padding-top: 5%;
     max-width: 100px;
   }
+}
+
+.container1{
+  padding: 1em 0;
+  float: left;
+  width: 50%;
+}
+
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+
+.main-title{
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+.container1{
+  padding: 1em 0;
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 640px){
+  .container1{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .container1{
+    width: 33.33333%;
+  }
+}
+
+.container1 .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container2{
+  padding: 0em 0;
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 640px){
+  .container2{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .container2{
+    width: 25%;
+  }
+}
+
+.container2 .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+
+
+.fadeIn{
+  top: 20%;
+}
+
+#namibia {
+  background: url(img/namibia.jpeg) no-repeat center center fixed;
+  display: table;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#japan {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+     url(img/shib.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+
+}
+
+
+#japan2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/mfuji.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 85vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#india {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/udaip.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#india2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/amritsar.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#china {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/chine.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#china2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/wall.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#nepal {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/pokhara2.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 1px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .5;
+}
+
+
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5,
+.fade-carousel .slides .slide-6,
+.fade-carousel .slides .slide-7,
+.fade-carousel .slides .slide-8,
+.fade-carousel .slides .slide-9
+ {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(img/chennai.jpeg);
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(img/mumbai.jpg);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(img/manali.jpeg);
+}
+.fade-carousel .slides .slide-4 {
+  background-image: url(img/amritsar.jpeg);
+}
+.fade-carousel .slides .slide-5 {
+  background-image: url(img/patan.jpeg);
+}
+.fade-carousel .slides .slide-6 {
+  background-image: url(img/swayambhu.jpeg);
+}
+.fade-carousel .slides .slide-7 {
+  background-image: url(img/pashupatinath.jpeg);
+}
+.fade-carousel .slides .slide-8 {
+  background-image: url(img/chitwan.jpeg);
+}
+.fade-carousel .slides .slide-9 {
+  background-image: url(img/nagarkot.jpeg);
+}
+
+
+
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 2em; }
 }
