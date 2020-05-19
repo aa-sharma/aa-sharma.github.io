@@ -1,4 +1,4 @@
-# aryastark-beep.github.io
-One Mile at a Time
+# One Mile at a Time
+aryastark-beep.github.io
 
 A travel blog website
