@@ -582,6 +582,65 @@ footer2 {
      background-size: cover;
 }
 
+#korea {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/korea1.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#korea2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/korea2.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#srilanka {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/srilanka.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#srilanka2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/lanka2.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
 
 .fade-carousel {
     position: relative;
