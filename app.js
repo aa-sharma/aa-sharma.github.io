@@ -9,6 +9,11 @@ function active (){
 
 }
 
+
+function goBack() {
+  window.history.go(-1);
+}
+
 function goBack2() {
   window.history.go(-2);
 }

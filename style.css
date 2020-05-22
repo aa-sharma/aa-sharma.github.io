@@ -732,6 +732,96 @@ footer2 {
      background-size: cover;
 }
 
+#croatia {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/croatia.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#croatia2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/zagreb.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#france {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/france1.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#france2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/france3.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#germany {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/german.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#germany2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/castle.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
 .fade-carousel {
     position: relative;
     height: 100vh;
