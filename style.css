@@ -822,6 +822,51 @@ footer2 {
      background-size: cover;
 }
 
+#greece {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/greecemoon.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#greece2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/tavern.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#greece3 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/athens.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
 .fade-carousel {
     position: relative;
     height: 100vh;
@@ -895,7 +940,11 @@ footer2 {
 .fade-carousel .slides .slide-6,
 .fade-carousel .slides .slide-7,
 .fade-carousel .slides .slide-8,
-.fade-carousel .slides .slide-9
+.fade-carousel .slides .slide-9,
+.fade-carousel .slides .slide-10,
+.fade-carousel .slides .slide-11,
+.fade-carousel .slides .slide-12
+
  {
   height: 100vh;
   background-size: cover;
@@ -928,6 +977,15 @@ footer2 {
 }
 .fade-carousel .slides .slide-9 {
   background-image: url(img/nagarkot.jpeg);
+}
+.fade-carousel .slides .slide-10 {
+  background-image: url(img/#.jpeg);
+}
+.fade-carousel .slides .slide-11 {
+  background-image: url(img/#.jpeg);
+}
+.fade-carousel .slides .slide-12 {
+  background-image: url(img/#.jpeg);
 }
 
 
