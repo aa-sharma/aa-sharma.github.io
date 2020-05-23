@@ -867,6 +867,22 @@ footer2 {
      background-size: cover;
 }
 
+#italy {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/italy2.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+
 .fade-carousel {
     position: relative;
     height: 100vh;
@@ -943,7 +959,8 @@ footer2 {
 .fade-carousel .slides .slide-9,
 .fade-carousel .slides .slide-10,
 .fade-carousel .slides .slide-11,
-.fade-carousel .slides .slide-12
+.fade-carousel .slides .slide-12,
+.fade-carousel .slides .slide-13
 
  {
   height: 100vh;
@@ -979,13 +996,16 @@ footer2 {
   background-image: url(img/nagarkot.jpeg);
 }
 .fade-carousel .slides .slide-10 {
-  background-image: url(img/#.jpeg);
+  background-image: url(img/col.jpeg);
 }
 .fade-carousel .slides .slide-11 {
-  background-image: url(img/#.jpeg);
+  background-image: url(img/david.jpeg);
 }
 .fade-carousel .slides .slide-12 {
-  background-image: url(img/#.jpeg);
+  background-image: url(img/tuscany.jpeg);
+}
+.fade-carousel .slides .slide-13 {
+  background-image: url(img/positano1.jpeg);
 }
 
 
