@@ -582,6 +582,36 @@ footer2 {
      background-size: cover;
 }
 
+#nepal2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/lumbini1.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#nepal3 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/poonhill.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
 #korea {
 
   background:
