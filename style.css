@@ -1017,6 +1017,96 @@ footer2 {
      background-size: cover;
 }
 
+#england {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/regent.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#england2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/rain.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#egypt {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/sphinx.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#egypt2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/thebes.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#kenya {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/kenya1.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#kenya2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/thebes.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
 
 .fade-carousel {
     position: relative;
@@ -1095,7 +1185,12 @@ footer2 {
 .fade-carousel .slides .slide-10,
 .fade-carousel .slides .slide-11,
 .fade-carousel .slides .slide-12,
-.fade-carousel .slides .slide-13
+.fade-carousel .slides .slide-13,
+.fade-carousel .slides .slide-14,
+.fade-carousel .slides .slide-15,
+.fade-carousel .slides .slide-16,
+.fade-carousel .slides .slide-17
+
 
  {
   height: 100vh;
@@ -1141,6 +1236,18 @@ footer2 {
 }
 .fade-carousel .slides .slide-13 {
   background-image: url(img/positano1.jpeg);
+}
+.fade-carousel .slides .slide-14 {
+  background-image: url(img/west.jpeg);
+}
+.fade-carousel .slides .slide-15 {
+  background-image: url(img/cotswolds.jpeg);
+}
+.fade-carousel .slides .slide-16 {
+  background-image: url(img/picc.jpeg);
+}
+.fade-carousel .slides .slide-17 {
+  background-image: url(img/buck.jpeg);
 }
 
 
