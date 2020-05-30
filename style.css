@@ -1099,7 +1099,67 @@ footer2 {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
-     url(img/thebes.jpeg) no-repeat center center fixed;
+     url(img/diani.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#madagascar {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/lemur.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#madagascar2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/mad.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#tanzania {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/tanzania1.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#tanzania2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/serengeti.jpeg) no-repeat center center fixed;
      display: table;
      height: 80vh;
      position: relative;
