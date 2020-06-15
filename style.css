@@ -466,15 +466,6 @@ footer2 {
   top: 20%;
 }
 
-#namibia {
-  background: url(img/namibia.jpeg) no-repeat center center fixed;
-  display: table;
-  height: 100vh;
-  position: relative;
-  width: 100%;
-  background-size: cover;
-}
-
 #japan {
 
   background:
@@ -1165,6 +1156,54 @@ footer2 {
      position: relative;
      width: 100%;
      background-size: cover;
+}
+
+#morocco {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/marrakech.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#morocco2 {
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+     url(img/maroc2.jpeg) no-repeat center center fixed;
+     display: table;
+     height: 80vh;
+     position: relative;
+     width: 100%;
+     background-size: cover;
+}
+
+#namibia {
+  background: url(img/namibia.jpeg) no-repeat center center fixed;
+  display: table;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#namibia2 {
+  background: url(img/nam.jpeg) no-repeat center center fixed;
+  display: table;
+  height: 80vh;
+  position: relative;
+  width: 100%;
+  background-size: cover;
 }
 
 
